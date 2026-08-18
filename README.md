@@ -97,3 +97,11 @@ A collaborative 2-person project built using Git and GitHub.
 ## 📌 Status
 
 **Currently in development — UI/MVP phase.**
+
+
+# Setup guide Guide
+## Initial Setup
+```
+npm install
+npm run dev
+```
