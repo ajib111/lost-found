@@ -15,17 +15,41 @@ function Navbar() {
       </Link>
 
       <nav className="nav-links" aria-label="Main navigation">
-        <NavLink to="/" end onClick={closeMenu}>Home</NavLink>
-        <NavLink to="/lost" onClick={closeMenu}>Lost</NavLink>
-        <NavLink to="/found" onClick={closeMenu}>Found</NavLink>
+        <NavLink to="/" end onClick={closeMenu}>
+          Home
+        </NavLink>
+        <NavLink to="/lost" onClick={closeMenu}>
+          Lost
+        </NavLink>
+        <NavLink to="/found" onClick={closeMenu}>
+          Found
+        </NavLink>
       </nav>
 
       <div className="nav-actions">
-        <Link className="button button-secondary" to="/report/found" onClick={closeMenu}>Report Found</Link>
-        <Link className="button button-primary" to="/report/lost" onClick={closeMenu}>Report Lost</Link>
+        <Link
+          className="button button-secondary"
+          to="/report/found"
+          onClick={closeMenu}
+        >
+          Report Found
+        </Link>
+        <Link
+          className="button button-primary"
+          to="/report/lost"
+          onClick={closeMenu}
+        >
+          Report Lost
+        </Link>
       </div>
 
-      <button className="mobile-menu" type="button" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle navigation" aria-expanded={isMenuOpen}>
+      <button
+        className="mobile-menu"
+        type="button"
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        aria-label="Toggle navigation"
+        aria-expanded={isMenuOpen}
+      >
         {isMenuOpen ? 'Close' : 'Menu'}
       </button>
     </header>

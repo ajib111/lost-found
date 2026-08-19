@@ -9,7 +9,7 @@ import ReportFound from './pages/ReportFound'
 import ReportLost from './pages/ReportLost'
 import './App.css'
 
-// The app shell keeps navigation and the footer visible on every route.
+
 function App() {
   return (
     <BrowserRouter>
@@ -26,7 +26,6 @@ function App() {
             <Route path="/report/found" element={<ReportFound />} />
           </Routes>
         </main>
-
         <Footer />
       </div>
     </BrowserRouter>
