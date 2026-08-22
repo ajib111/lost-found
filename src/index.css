@@ -2,8 +2,8 @@
 
 :root {
   font-family: 'DM Sans', sans-serif;
-  color: #172136;
-  background: #f8fafc;
+  color: #1b1b1b;
+  background: #f7f4ec;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -19,6 +19,8 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  background: #f7f4ec;
+  color: #1b1b1b;
 }
 
 button,

@@ -61,6 +61,14 @@ function ReportItemForm({ type }) {
           <label htmlFor="date">Date {itemTypeLabel}</label>
           <input id="date" type="date" required />
         </div>
+        <div className='form-field'>
+          <label htmlFor='country'>Country</label>
+          <input id = "country" required placeholder='e.g. Nepal' />
+        </div>
+        <div className='form-field'>
+          <label html for = 'city'>City</label>
+          <input id = "city" required placeholder='e.g. Kathmandu'/>
+        </div>
         <div className="form-field">
           <label htmlFor="location">Location</label>
           <input id="location" required placeholder="e.g. Main library" />
