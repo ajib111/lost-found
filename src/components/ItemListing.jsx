@@ -23,7 +23,7 @@ function ItemListing({ items, type }) {
     <>
       <div className="filters">
         <div className="search-wrap">
-          <span>Search</span>
+          <span> // this appears in the search bar </span>
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}

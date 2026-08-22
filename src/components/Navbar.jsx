@@ -29,6 +29,13 @@ function Navbar() {
       <div className="nav-actions">
         <Link
           className="button button-secondary"
+          to="/login"
+          onClick={closeMenu}
+        >
+          Login
+        </Link>
+        <Link
+          className="button button-secondary"
           to="/report/found"
           onClick={closeMenu}
         >

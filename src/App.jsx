@@ -7,6 +7,8 @@ import ItemDetails from './pages/ItemDetails'
 import Lost from './pages/Lost'
 import ReportFound from './pages/ReportFound'
 import ReportLost from './pages/ReportLost'
+import Login from './pages/Login'
+import Signup from './pages/Signup'
 import './App.css'
 
 
@@ -24,6 +26,8 @@ function App() {
             <Route path="/item/:id" element={<ItemDetails />} />
             <Route path="/report/lost" element={<ReportLost />} />
             <Route path="/report/found" element={<ReportFound />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
           </Routes>
         </main>
         <Footer />

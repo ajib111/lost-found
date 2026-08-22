@@ -6,6 +6,7 @@ export const categories = [
   'Documents',
   'Bags',
   'Keys',
+  'Others',
 ]
 
 export const items = [
